@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV VERSION=2.2.3
+ENV VERSION=2.3.1
 RUN cd /tmp && \
 apk add --no-cache curl && \
 curl https://storage.googleapis.com/kubernetes-helm/helm-v$VERSION-linux-amd64.tar.gz -o helm.tar.gz && \
